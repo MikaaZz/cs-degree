@@ -1,17 +1,5 @@
 import java.util.Scanner;
 
-/*
-  Entrada:
-  Ler altura
-  Ler largura
-
-  Processos:
-  Calcular a area
-
-  Saida:
-  Valor da area
- */
-
 public class Uni3Exe01 {
   public static void main(String[] args) throws Exception {
       Scanner keyboard = new Scanner(System.in);

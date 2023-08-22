@@ -5,15 +5,6 @@ Fórmula: PI * raio2 * altura;
 Quantas casas decimais devo usar para o número Pi?
 3.1415
 
-Entrada
-raio da lata e altura
-
-Processo
-PI * raio2 * altura
-
-Saida
-volume da lata
-
 */
 
 import java.util.Scanner;

@@ -5,6 +5,21 @@
  3 centena(s)  8 dezena(s) 4 unidade(s)
  */
 
-public class Uni3Exe15 {
+import java.util.Scanner;
 
+public class Uni3Exe15 {
+  public static void main(String[] args) {
+    Scanner keyboard = new Scanner(System.in);
+
+    System.out.println("Digite um número inteiro (até 3 dígitos):");
+    int number = keyboard.nextInt();
+
+    int hundreds = number / 100;
+    int tens = (number % 100) / 10;
+    int units = number % 10;
+
+    System.out.println(hundreds + " centena(s) " + tens + " dezena(s) " + units + " unidade(s)");
+
+    keyboard.close();
+  }
 }

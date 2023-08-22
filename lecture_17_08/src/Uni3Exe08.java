@@ -2,17 +2,6 @@
   Uma pessoa foi até uma casa de câmbio trocar dólares por reais.
   Para isto ela entregou um valor em dólares para o atendente.
   Considerando que o atendente tem a cotação do dólar, descreva um programa para calcular quantos reais o atendente deve devolver para a pessoa.
-
-  Entrada
-  Valor de dolar para trocar
-  Valor da cotacao
-
-  Processo
-  Multiplicar os dolares pelo valor do dolar
-
-  Saida
-  Valor da conversao para reais
-
 */
 
 import java.time.LocalDate;

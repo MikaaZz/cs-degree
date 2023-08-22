@@ -4,15 +4,6 @@
   Se um comerciante compra uma determinada quantidade de cada formato,
   faça um programa para calcular quantos litros de refrigerante ele comprou.
 
-  Entrada
-  Quantidade de cada formato
-
-  Processos
-  Multiplicar quantidade por volume de cada tipo e somar tudo
-
-  Saida
-  Litros de refrigerante
-
 */
 
 import java.util.Scanner;

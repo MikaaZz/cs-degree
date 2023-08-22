@@ -5,15 +5,6 @@ no pé esquerdo são dois anéis para indicar o tipo de alimento que ele deve co
 Sabendo que o anel com chip custa R$ 4,00 e o anel de alimento custa R$ 3,50,
 faça um programa para calcular o gasto total da granja para marcar todos os seus frangos.
 
-Entrada:
-Quantidade de frangos
-
-Processo:
-Valor de cada anel * quantidade de frangos
-
-Saida:
-Valor gasto para todos os frangos
-
  */
 
 import java.util.Scanner;

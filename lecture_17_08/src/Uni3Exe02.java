@@ -4,16 +4,6 @@ Uma loja de calçados está concedendo 12% de desconto nos produtos. Escreva um 
 
 O valor do desconto é de R$ xxx
 O preço do par de sapatos com desconto é R$ xxx
-
-Entrada
-Preco do sapato
-Desconto de 12%
-
-Processo
-Calcular o valor do desconto e o valor do produto
-
-Saida
-Valor do desconto e valor do produto com desconto
  */
 
 import java.util.Scanner;
