@@ -5,5 +5,7 @@
  * fluxograma:
  */
 public class Uni4Exe08 {
-
+ public static void main(String[] args) {
+  
+ }
 }
