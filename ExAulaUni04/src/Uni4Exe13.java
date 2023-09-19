@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Uni4Exe13
  * Escreva um algoritmo que obtém do usuário 3 valores inteiros representando as
@@ -12,5 +14,30 @@
  * fluxograma:
  */
 public class Uni4Exe13 {
+ public static void main(String[] args) {
+  Scanner keyboard = new Scanner(System.in);
 
+  System.out.println("Informe as 3 cartas: ");
+  int letterOne = keyboard.nextInt(), letterTwo = keyboard.nextInt(), letterThree = keyboard.nextInt(),
+    numOfGodLetters = 0;
+
+  if (letterOne == 1 || letterTwo == 2 || letterThree == 3) {
+   numOfGodLetters++;
+  }
+  if (letterTwo == 1 || letterTwo == 2 || letterTwo == 3) {
+   numOfGodLetters++;
+  }
+  if (letterThree == 1 || letterThree == 2 || letterThree == 3) {
+   numOfGodLetters++;
+  }
+  if (numOfGodLetters == 1) {
+   System.out.println("Truco");
+  } else if (numOfGodLetters == 2) {
+   System.out.println("Seis");
+  } else if (numOfGodLetters == 3) {
+   System.out.println("Nove");
+  }
+
+  keyboard.close();
+ }
 }
