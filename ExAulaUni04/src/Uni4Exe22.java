@@ -9,6 +9,31 @@
  * Computação", "Licenciado em Computação" e "Bacharel em Sistemas de
  * Informação".
  */
+import java.util.Scanner;
+
 public class Uni4Exe22 {
 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Escolha uma das opções de curso:");
+        System.out.println("1 - Ciência da Computação");
+        System.out.println("2 - Licenciatura da Computação");
+        System.out.println("3 - Sistemas de Informação");
+        
+        int opcao = scanner.nextInt();
+
+        if (opcao == 1) {
+            System.out.println("Você receberá o título de: Bacharel em Ciência da Computação.");
+        } else if (opcao == 2) {
+            System.out.println("Você receberá o título de: Licenciado em Computação.");
+        } else if (opcao == 3) {
+            System.out.println("Você receberá o título de: Bacharel em Sistemas de Informação.");
+        } else {
+            System.out.println("Opção inválida.");
+        }
+
+        scanner.close();
+    }
 }
+
