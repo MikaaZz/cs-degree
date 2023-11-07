@@ -8,15 +8,14 @@ import java.util.Scanner;
  */
 public class Uni6Exe01 {
 
- private static final int arraySize = 10;
- private static int array[] = new int[arraySize];
-
  public static void main(String[] args) {
-  read();
-  write();
+  int arraySize = 10;
+  int array[] = new int[arraySize];
+  read(arraySize, array);
+  write(arraySize, array);
  }
 
- public static void read() {
+ public static void read(int arraySize, int array[]) {
   Scanner scanner = new Scanner(System.in);
   for (int i = 0; i < arraySize; i++) {
    System.out.print("Vetor " + i + ": ");
@@ -25,7 +24,7 @@ public class Uni6Exe01 {
   scanner.close();
  }
 
- public static void write() {
+ public static void write(int arraySize, int array[]) {
   for (int i = arraySize - 1; i >= 0; i--) {
    System.out.print(array[i] + ", ");
   }

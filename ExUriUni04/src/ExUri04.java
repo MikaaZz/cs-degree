@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ExUri01 {
+public class ExUri04 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

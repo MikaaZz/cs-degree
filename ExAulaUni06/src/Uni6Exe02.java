@@ -11,15 +11,14 @@
  * outro para informar os valores maiores que a média.
  */
 public class Uni6Exe02 {
- private static final int arraySize = 12;
- private static int array[] = new int[arraySize];
 
- public static void main(String[] args) {
-
+ private Uni6Exe02() {
+  final int arraySize = 12;
+  int array[] = new int[arraySize];
  }
 
  public static void read() {
-
+  
  }
 
  public static void calculate() {
@@ -28,5 +27,9 @@ public class Uni6Exe02 {
 
  public static void write() {
 
+ }
+
+ public static void main(String[] args) {
+  new Uni6Exe02();
  }
 }
